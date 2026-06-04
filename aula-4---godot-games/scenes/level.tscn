@@ -2871,5 +2871,11 @@ sources/0 = SubResource("TileSetAtlasSource_w8frs")
 [node name="Player" parent="." unique_id=2100032952 instance=ExtResource("1_2q6dc")]
 position = Vector2(551, 290)
 
-[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1441537137]
+[node name="Node2D" type="Node2D" parent="." unique_id=262308208]
+
+[node name="Chão" type="TileMapLayer" parent="Node2D" unique_id=1441537137]
 tile_set = SubResource("TileSet_mx8sn")
+
+[node name="Fundo" type="TileMapLayer" parent="Node2D" unique_id=1424232149]
+
+[node name="Decoração" type="TileMapLayer" parent="Node2D" unique_id=1479457188]
